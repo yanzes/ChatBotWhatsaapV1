@@ -6,10 +6,10 @@ const MockAdapter = require('@bot-whatsapp/database/mock')
 
 const flowSecundario = addKeyword(['2', 'siguiente']).addAnswer(['📄 Aquí tenemos el flujo secundario'])
 
-const flowDocs = addKeyword(['doc', 'documentacion', 'documentación']).addAnswer(
+const flowDocs = addKeyword(['Información General', 'Info', 'inf','informacion','información','1']).addAnswer(
     [
-        '📄 Aquí encontras las documentación recuerda que puedes mejorarla',
-        'https://bot-whatsapp.netlify.app/',
+        '📄 Información General:\n Descubre cómo los generadores de Ozono eliminan olores y desinfectan ambientes, convirtiéndolos en una solución efectiva para el hogar y el negocio.',
+        ,
         '\n*2* Para siguiente paso.',
     ],
     null,
@@ -53,7 +53,7 @@ const flowPrincipal = addKeyword(['ole', 'alo','buenas','buenos','buenas noches'
     .addAnswer(
         [
             'Para ayudarte mejor, elige una de las siguientes opciones:\n',
-            '👉 *doc* 📄 Información General: Descubre qué es un generador de Ozono y cómo funciona.\nEscribe info para obtener más detalles.\n',
+            '👉 📄 *Información General*: Descubre qué es un generador de Ozono y cómo funciona.\nEscribe info para obtener más detalles.\n',
             '👉 *gracias* 🛠️ Solicitud de Alquiler: ¿Listo para alquilar un generador de Ozono? Te guiaremos en el proceso.\nEscribe alquilar para iniciar tu solicitud.\n',
             '👉 *discord* 🤔 Asesoría Especializada: ¿Tienes preguntas o necesitas asesoramiento? Estamos aquí para ayudarte.\nEscribe asesoría para hablar con un experto.\n',
             '👉 *gracias3* 🧼 Aplicaciones Comunes: Aprende cómo los generadores de Ozono pueden ayudar con olores y humedad.\nEscribe usos para más información.\n',
