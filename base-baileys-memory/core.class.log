@@ -1,0 +1,79 @@
+[handleMsg]:  {
+  key: {
+    remoteJid: '573506296324@s.whatsapp.net',
+    fromMe: false,
+    id: '9867AF8DCE8165A4F59ADA32ED7D6544',
+    participant: undefined
+  },
+  messageTimestamp: 1721857764,
+  pushName: 'Yanco',
+  broadcast: false,
+  message: Message {
+    conversation: 'Hola',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Hola',
+  from: '573506296324'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_a358bc55-b52e-45a5-b96a-bd1207308dc5',
+  keyword: 'key_14fb1620-9606-4fd7-9e80-bef0356fda61',
+  answer: '🙌 ¡Bienvenido al servicio de alquiler de generadores de Ozono!',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'f4e070afdd85327f0be576ab9860bfde'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_09f874d2-569d-43d7-9f7f-17fe8538cb3f',
+  keyword: 'ans_a358bc55-b52e-45a5-b96a-bd1207308dc5',
+  answer: 'Para ayudarte mejor, elige una de las siguientes opciones:\n' +
+    '\n' +
+    '👉 *doc* 📄 Información General: Descubre qué es un generador de Ozono y cómo funciona.\n' +
+    'Escribe info para obtener más detalles.\n' +
+    '\n' +
+    '👉 *gracias* 🛠️ Solicitud de Alquiler: ¿Listo para alquilar un generador de Ozono? Te guiaremos en el proceso.\n' +
+    'Escribe alquilar para iniciar tu solicitud.\n' +
+    '\n' +
+    '👉 *discord* 🤔 Asesoría Especializada: ¿Tienes preguntas o necesitas asesoramiento? Estamos aquí para ayudarte.\n' +
+    'Escribe asesoría para hablar con un experto.\n' +
+    '\n' +
+    '👉 *gracias3* 🧼 Aplicaciones Comunes: Aprende cómo los generadores de Ozono pueden ayudar con olores y humedad.\n' +
+    'Escribe usos para más información.\n' +
+    '\n' +
+    '👉 *gracias2* 💰 Información de Pago: ¿Quieres saber cómo funciona el pago por parte de los clientes? Aquí te explicamos.\n' +
+    'Escribe pago para más información.\n' +
+    '\n' +
+    '👉 *doc2* 💬 Testimonios: Conoce la experiencia de otros clientes con nuestros generadores.\n' +
+    'Escribe testimonios para leer sus historias.',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object]
+    ],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '6a5e0f8e3025b2f946e4881c35d8154e'
+}
